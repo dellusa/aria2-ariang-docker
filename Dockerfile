@@ -26,7 +26,7 @@ RUN apk update \
 # AriaNG
 WORKDIR /usr/local/www/ariang
 
-RUN wget --no-check-certificate https://github.com/mayswind/AriaNg/releases/download/${ARIANG_VERSION}/AriaNg-${ARIANG_VERSION}.zip \
+RUN wget --no-check-certificate https://github.com/mayswind/AriaNg/releases/download/1.2.3/AriaNg-1.2.3.zip \
     -O ariang.zip \
     && unzip ariang.zip \
     && rm ariang.zip \
